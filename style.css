@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "MAZIUS-regular";
+  src: url("fonts/MAZIUSREVIEW20.09-Regular.otf") format("opentype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff6f4;
+}
+
+h1 {
+  font-family: "MAZIUS-regular", serif;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+h2 {
+  font-family: serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition-delay: 4ms;
+}
+a:hover {
+  font-style: italic;
+  transition-delay: 4ms;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+.nav {
+  width: 100%;
+  padding: 5px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
